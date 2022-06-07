@@ -307,7 +307,7 @@ img {
   display: flex;
   justify-content: center;
 
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .portfolio-buttons-item:not(:last-child) {
