@@ -70,6 +70,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* -----------------header----------------- */
 .header {
   padding-top: 24px;
@@ -165,10 +178,10 @@ img {
 
 .flax {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -178,13 +191,12 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 
-  max-width: 696px;
+  width: 696px;
   margin-bottom: 30px;
 }
 
 .hero-but {
   display: block;
-  margin: 0 auto;
   border-radius: 4px;
   padding: 10px 32px;
 
